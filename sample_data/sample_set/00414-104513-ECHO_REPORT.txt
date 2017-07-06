@@ -1,0 +1,42 @@
+104513	||||	414	||||	8517	||||	ECHO_REPORT	||||	2014-04-22 00:00:00.0	||||		||||	
+PATIENT/TEST INFORMATION:
+Indication: Congestive heart failure. Left ventricular function.  Shortness of breath. Height: (in) 71
+Weight (lb): 208
+BSA (m2): 2.15 m2
+BP (mm Hg): 104/66
+HR (bpm): 90
+Status: Inpatient
+Date/Time: [**2014-04-22**] at 09:34
+Test: Portable TTE (Complete)
+Doppler: Full Doppler and color Doppler
+Contrast: None
+Technical Quality: Suboptimal
+
+||||		||||	
+INTERPRETATION: 
+
+Findings: 
+
+LEFT ATRIUM: Moderate LA enlargement. 
+
+LEFT VENTRICLE: Normal LV wall thicknesses and cavity size. Suboptimal technical quality, a focal LV wall motion abnormality cannot be fully excluded. 
+
+RIGHT VENTRICLE: Normal RV chamber size. Moderate global RV free wall hypokinesis. 
+
+AORTA: Moderately dilated aortic root. Moderately dilated ascending aorta. 
+
+AORTIC VALVE: Moderately thickened aortic valve leaflets. 
+
+MITRAL VALVE: Mitral valve not well seen. Mild mitral annular calcification. 
+
+TRICUSPID VALVE: Tricuspid valve not well visualized. Indeterminate PA systolic pressure. 
+
+PERICARDIUM: No pericardial effusion. 
+
+GENERAL COMMENTS: Suboptimal image quality - poor echo windows. The rhythm appears to be atrial fibrillation. Echocardiographic results were reviewed by telephone with the houseofficer caring for the patient. 
+
+Conclusions: 
+Technically suboptimal study due to pooor acoustic windows. The left atrium is moderately dilated. Left ventricular wall thicknesses and cavity size are normal. Due to suboptimal technical quality, a focal wall motion abnormality cannot be fully excluded. Global systolic function is depressed ?global (LVEF?40%). Right ventricular chamber size is normal with moderate global free wall hypokinesis. The aortic root and ascending aorta are moderately dilated. The aortic valve leaflets are moderately thickened. Significant aortic stenosis is probably not present. The mitral valve is not well seen. Mitral stenosis is not present and definate mitral regurgitation is not seen. The pulmonary artery systolic pressure could not be determined. There is no pericardial effusion. 
+
+If clinically indicated, a radionuclide ventriculogram is suggested to better characterize regional and global biventricular systolic function. 
+

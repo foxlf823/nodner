@@ -1,0 +1,560 @@
+104513	0	6	CD	0	root
+|	7	8	CD	3	number
+|	8	9	CD	1	dep
+|	9	10	CD	5	num
+|	10	11	NN	3	dep
+414	12	15	CD	7	number
+|	16	17	CD	1	dep
+|	17	18	CD	9	num
+|	18	19	CD	7	dep
+|	19	20	CD	11	number
+8517	21	25	CD	1	dep
+|	26	27	CD	11	dep
+|	27	28	CD	14	number
+|	28	29	CD	1	dep
+|	29	30	CD	18	num
+ECHO	31	35	NNP	18	nn
+_	35	36	CD	18	num
+REPORT	36	42	NNP	14	dep
+|	43	44	CD	20	number
+|	44	45	CD	1	dep
+|	45	46	CD	20	dep
+|	46	47	CD	23	num
+2014	48	52	CD	1	dep
+-	52	53	:	-1	null
+04	53	55	CD	23	dep
+-	55	56	:	-1	null
+22	56	58	CD	25	dep
+00	59	61	CD	27	dep
+:	61	62	:	-1	null
+00	62	64	CD	27	dep
+:	64	65	:	-1	null
+00	65	67	CD	30	dep
+.	67	68	.	-1	null
+0	68	69	CD	23	dep
+|	70	71	CD	36	number
+|	71	72	CD	1	dep
+|	72	73	CD	38	num
+|	73	74	CD	36	dep
+|	76	77	CD	40	number
+|	77	78	CD	1	dep
+|	78	79	CD	42	num
+|	79	80	CD	40	dep
+$	81	82	$	1	dep
+
+PATIENT	82	89	NN	0	root
+/	89	90	:	4	punct
+TEST	90	94	NN	4	nn
+INFORMATION	95	106	NN	1	dep
+:	106	107	:	-1	null
+$	107	108	$	1	dep
+
+Indication	108	118	NN	0	root
+:	118	119	:	-1	null
+Congestive	120	130	JJ	5	amod
+heart	131	136	NN	5	nn
+failure	137	144	NN	1	dep
+.	144	145	.	-1	null
+
+Left	146	150	VBN	0	root
+ventricular	151	162	JJ	3	amod
+function	163	171	NN	1	dobj
+.	171	172	.	-1	null
+
+Shortness	174	183	NN	0	root
+of	184	186	IN	1	prep
+breath	187	193	NN	2	pobj
+.	193	194	.	-1	null
+
+Height	195	201	NN	0	root
+:	201	202	:	-1	null
+(	203	204	CD	1	dep
+in	204	206	IN	3	prep
+)	206	207	CD	6	number
+71	208	210	CD	4	pobj
+$	210	211	$	1	dep
+
+Weight	211	217	NNP	0	root
+(	218	219	CD	4	number
+lb	219	221	NN	4	dep
+)	221	222	NN	1	amod
+:	222	223	:	-1	null
+208	224	227	CD	7	number
+$	227	228	$	1	dep
+
+BSA	228	231	NN	0	root
+(	232	233	CD	3	num
+m2	233	235	NN	1	dep
+)	235	236	CD	6	num
+:	236	237	:	-1	null
+2	238	239	CD	3	dep
+.	239	240	.	-1	null
+15	240	242	CD	9	num
+m2	243	245	NN	6	dep
+$	245	246	$	6	dep
+
+BP	246	248	NN	4	nn
+(	249	250	CD	4	num
+mm	250	252	NN	4	nn
+Hg	253	255	NN	0	root
+)	255	256	CD	7	num
+:	256	257	:	-1	null
+104	258	261	CD	4	dep
+/	261	262	:	4	punct
+66	262	264	CD	4	dep
+$	264	265	$	9	dep
+
+HR	265	267	NN	3	nn
+(	268	269	NN	3	nn
+bpm	269	272	NN	0	root
+)	272	273	CD	6	num
+:	273	274	:	-1	null
+90	275	277	CD	3	dep
+$	277	278	$	3	dep
+
+Status	278	284	NN	0	root
+:	284	285	:	-1	null
+Inpatient	286	295	JJ	4	amod
+$	295	296	$	1	dep
+
+Date	296	300	NN	0	root
+/	300	301	:	3	punct
+Time	301	305	NNP	1	dep
+:	305	306	:	-1	null
+[	307	308	CD	3	dep
+*	308	309	SYM	3	dep
+*	309	310	SYM	3	dep
+2014	310	314	CD	3	dobj
+-	314	315	:	-1	null
+04	315	317	CD	12	num
+-	317	318	:	-1	null
+22	318	320	CD	8	dep
+*	320	321	SYM	8	dep
+*	321	322	SYM	15	dep
+]	322	323	CD	19	dep
+at	324	326	IN	15	prep
+09	327	329	CD	16	pobj
+:	329	330	:	-1	null
+34	330	332	CD	1	dep
+$	332	333	$	19	dep
+
+Test	333	337	NN	0	root
+:	337	338	:	-1	null
+Portable	339	347	JJ	8	amod
+TTE	348	351	NNP	3	dep
+(	352	353	CD	4	num
+Complete	353	361	JJ	8	amod
+)	361	362	CD	8	num
+$	362	363	$	1	dep
+
+Doppler	363	370	NNP	0	root
+:	370	371	:	-1	null
+Full	372	376	JJ	4	amod
+Doppler	377	384	NNP	1	dep
+and	385	388	CC	4	cc
+color	389	394	NN	4	conj
+Doppler	395	402	NNP	4	appos
+$	402	403	$	1	dep
+
+Contrast	403	411	NN	0	root
+:	411	412	:	-1	null
+None	413	417	NN	1	dep
+$	417	418	$	1	dep
+
+Technical	418	427	NNP	2	nn
+Quality	428	435	NNP	0	root
+:	435	436	:	-1	null
+Suboptimal	437	447	JJ	5	amod
+$	447	448	$	2	dep
+
+$	448	449	$	0	root
+
+|	449	450	FW	8	nn
+|	450	451	FW	8	nn
+|	451	452	FW	8	nn
+|	452	453	FW	8	nn
+|	455	456	FW	8	nn
+|	456	457	FW	8	nn
+|	457	458	FW	8	nn
+|	458	459	FW	0	root
+$	460	461	$	8	dep
+
+INTERPRETATION	461	475	NN	0	root
+:	475	476	:	-1	null
+$	477	478	$	1	dep
+
+$	478	479	$	0	root
+
+Findings	479	487	NNS	0	root
+:	487	488	:	-1	null
+$	489	490	$	1	dep
+
+$	490	491	$	0	root
+
+LEFT	491	495	NNP	2	nn
+ATRIUM	496	502	NNP	0	root
+:	502	503	:	-1	null
+Moderate	504	512	JJ	6	amod
+LA	513	515	NNP	6	nn
+enlargement	516	527	NN	2	dep
+.	527	528	.	-1	null
+
+$	529	530	$	0	root
+
+$	530	531	$	0	root
+
+LEFT	531	535	JJ	2	amod
+VENTRICLE	536	545	NN	0	root
+:	545	546	:	-1	null
+Normal	547	553	JJ	7	amod
+LV	554	556	NN	7	nn
+wall	557	561	NN	7	nn
+thicknesses	562	573	NNS	2	dep
+and	574	577	CC	7	cc
+cavity	578	584	NN	10	nn
+size	585	589	NN	7	conj
+.	589	590	.	-1	null
+
+Suboptimal	591	601	JJ	3	amod
+technical	602	611	JJ	3	amod
+quality	612	619	NN	14	nsubjpass
+,	619	620	,	-1	null
+a	621	622	DT	8	det
+focal	623	628	JJ	8	amod
+LV	629	631	NN	8	nn
+wall	632	636	NN	3	appos
+motion	637	643	NN	11	nn
+abnormality	644	655	NN	11	nn
+cannot	656	662	NN	8	dep
+be	663	665	VB	14	auxpass
+fully	666	671	RB	14	advmod
+excluded	672	680	VBN	0	root
+.	680	681	.	-1	null
+
+$	682	683	$	0	root
+
+$	683	684	$	0	root
+
+RIGHT	684	689	NN	2	nn
+VENTRICLE	690	699	NN	0	root
+:	699	700	:	-1	null
+Normal	701	707	JJ	7	amod
+RV	708	710	NN	7	nn
+chamber	711	718	NN	7	nn
+size	719	723	NN	2	dep
+.	723	724	.	-1	null
+
+Moderate	725	733	JJ	3	amod
+global	734	740	JJ	3	amod
+RV	741	743	NN	0	root
+free	744	748	JJ	6	amod
+wall	749	753	NN	6	nn
+hypokinesis	754	765	NN	3	dep
+.	765	766	.	-1	null
+
+$	767	768	$	0	root
+
+$	768	769	$	0	root
+
+AORTA	769	774	NNP	4	dep
+:	774	775	:	-1	null
+Moderately	776	786	RB	4	advmod
+dilated	787	794	VBN	0	root
+aortic	795	801	JJ	6	amod
+root	802	806	NN	4	dobj
+.	806	807	.	-1	null
+
+Moderately	808	818	RB	0	root
+dilated	819	826	VBN	1	dep
+ascending	827	836	VBG	2	xcomp
+aorta	837	842	NN	3	dobj
+.	842	843	.	-1	null
+
+$	844	845	$	0	root
+
+$	845	846	$	0	root
+
+AORTIC	846	852	JJ	2	amod
+VALVE	853	858	NN	5	dep
+:	858	859	:	-1	null
+Moderately	860	870	RB	5	advmod
+thickened	871	880	VBN	0	root
+aortic	881	887	JJ	8	amod
+valve	888	893	NN	8	nn
+leaflets	894	902	NNS	5	dobj
+.	902	903	.	-1	null
+
+$	904	905	$	0	root
+
+$	905	906	$	0	root
+
+MITRAL	906	912	JJ	2	amod
+VALVE	913	918	NN	0	root
+:	918	919	:	-1	null
+Mitral	920	926	JJ	5	amod
+valve	927	932	NN	2	dep
+not	933	936	RB	8	neg
+well	937	941	RB	8	advmod
+seen	942	946	VBN	5	vmod
+.	946	947	.	-1	null
+
+Mild	948	952	JJ	2	amod
+mitral	953	959	JJ	4	amod
+annular	960	967	JJ	4	amod
+calcification	968	981	NN	0	root
+.	981	982	.	-1	null
+
+$	983	984	$	0	root
+
+$	984	985	$	0	root
+
+TRICUSPID	985	994	NN	2	nn
+VALVE	995	1000	NN	0	root
+:	1000	1001	:	-1	null
+Tricuspid	1002	1011	NN	5	nn
+valve	1012	1017	NN	8	nsubj
+not	1018	1021	RB	7	dep
+well	1022	1026	RB	8	advmod
+visualized	1027	1037	VBD	2	dep
+.	1037	1038	.	-1	null
+
+Indeterminate	1039	1052	JJ	2	amod
+PA	1053	1055	NN	0	root
+systolic	1056	1064	JJ	4	amod
+pressure	1065	1073	NN	2	dep
+.	1073	1074	.	-1	null
+
+$	1075	1076	$	0	root
+
+$	1076	1077	$	0	root
+
+PERICARDIUM	1077	1088	NN	0	root
+:	1088	1089	:	-1	null
+No	1090	1092	DT	5	neg
+pericardial	1093	1104	JJ	5	amod
+effusion	1105	1113	NN	1	dep
+.	1113	1114	.	-1	null
+
+$	1115	1116	$	0	root
+
+$	1116	1117	$	0	root
+
+GENERAL	1117	1124	JJ	2	amod
+COMMENTS	1125	1133	NNS	0	root
+:	1133	1134	:	-1	null
+Suboptimal	1135	1145	JJ	6	amod
+image	1146	1151	NN	6	nn
+quality	1152	1159	NN	2	dep
+-	1160	1161	:	-1	null
+poor	1162	1166	JJ	9	nsubj
+echo	1167	1171	VBP	2	dep
+windows	1172	1179	NNS	9	dobj
+.	1179	1180	.	-1	null
+
+The	1181	1184	DT	2	det
+rhythm	1185	1191	NN	3	nsubj
+appears	1192	1199	VBZ	0	root
+to	1200	1202	TO	7	aux
+be	1203	1205	VB	7	cop
+atrial	1206	1212	JJ	7	amod
+fibrillation	1213	1225	NN	3	xcomp
+.	1225	1226	.	-1	null
+
+Echocardiographic	1227	1244	JJ	2	amod
+results	1245	1252	NNS	4	nsubjpass
+were	1253	1257	VBD	4	auxpass
+reviewed	1258	1266	VBN	0	root
+by	1267	1269	IN	4	prep
+telephone	1270	1279	NN	5	pobj
+with	1280	1284	IN	4	prep
+the	1285	1288	DT	10	det
+houseofficer	1289	1301	NN	10	nn
+caring	1302	1308	NN	7	pobj
+for	1309	1312	IN	10	prep
+the	1313	1316	DT	13	det
+patient	1317	1324	NN	11	pobj
+.	1324	1325	.	-1	null
+
+$	1326	1327	$	0	root
+
+$	1327	1328	$	0	root
+
+Conclusions	1328	1339	NNS	0	root
+:	1339	1340	:	-1	null
+$	1341	1342	$	1	dep
+
+Technically	1342	1353	NNP	2	amod
+suboptimal	1354	1364	JJ	3	amod
+study	1365	1370	NN	0	root
+due	1371	1374	JJ	3	amod
+to	1375	1377	TO	6	aux
+pooor	1378	1383	VB	4	xcomp
+acoustic	1384	1392	JJ	8	amod
+windows	1393	1400	NNS	6	dobj
+.	1400	1401	.	-1	null
+
+The	1402	1405	DT	3	det
+left	1406	1410	JJ	3	amod
+atrium	1411	1417	NN	6	nsubjpass
+is	1418	1420	VBZ	6	auxpass
+moderately	1421	1431	RB	6	advmod
+dilated	1432	1439	VBN	0	root
+.	1439	1440	.	-1	null
+
+Left	1441	1445	VBN	9	csubj
+ventricular	1446	1457	JJ	4	amod
+wall	1458	1462	NN	4	nn
+thicknesses	1463	1474	NNS	1	dobj
+and	1475	1478	CC	4	cc
+cavity	1479	1485	NN	7	nn
+size	1486	1490	NN	4	conj
+are	1491	1494	VBP	9	cop
+normal	1495	1501	JJ	0	root
+.	1501	1502	.	-1	null
+
+Due	1503	1506	JJ	2	mwe
+to	1507	1509	TO	15	prep
+suboptimal	1510	1520	JJ	5	amod
+technical	1521	1530	JJ	5	amod
+quality	1531	1538	NN	2	pobj
+,	1538	1539	,	-1	null
+a	1540	1541	DT	12	det
+focal	1542	1547	JJ	12	amod
+wall	1548	1552	NN	12	nn
+motion	1553	1559	NN	12	nn
+abnormality	1560	1571	NN	12	nn
+cannot	1572	1578	NN	15	nsubjpass
+be	1579	1581	VB	15	auxpass
+fully	1582	1587	RB	15	advmod
+excluded	1588	1596	VBN	0	root
+.	1596	1597	.	-1	null
+
+Global	1598	1604	JJ	3	amod
+systolic	1605	1613	JJ	3	amod
+function	1614	1622	NN	5	nsubjpass
+is	1623	1625	VBZ	5	auxpass
+depressed	1626	1635	VBN	0	root
+?	1636	1637	.	-1	null
+
+global	1637	1643	JJ	0	root
+(	1644	1645	CD	3	num
+LVEF	1645	1649	NN	1	dep
+?	1649	1650	.	-1	null
+
+40	1650	1652	CD	2	num
+%	1652	1653	NN	0	root
+)	1653	1654	CD	2	dep
+.	1654	1655	.	-1	null
+
+Right	1656	1661	RB	6	advmod
+ventricular	1662	1673	JJ	3	amod
+chamber	1674	1681	NN	1	pobj
+size	1682	1686	NN	6	nsubj
+is	1687	1689	VBZ	6	cop
+normal	1690	1696	JJ	0	root
+with	1697	1701	IN	6	prep
+moderate	1702	1710	JJ	12	amod
+global	1711	1717	JJ	12	amod
+free	1718	1722	JJ	12	amod
+wall	1723	1727	NN	12	nn
+hypokinesis	1728	1739	NN	7	pobj
+.	1739	1740	.	-1	null
+
+The	1741	1744	DT	3	det
+aortic	1745	1751	JJ	3	amod
+root	1752	1756	NN	9	nsubjpass
+and	1757	1760	CC	3	cc
+ascending	1761	1770	VBG	6	amod
+aorta	1771	1776	NN	3	conj
+are	1777	1780	VBP	9	auxpass
+moderately	1781	1791	RB	9	advmod
+dilated	1792	1799	VBN	0	root
+.	1799	1800	.	-1	null
+
+The	1801	1804	DT	4	det
+aortic	1805	1811	JJ	4	amod
+valve	1812	1817	NN	4	nn
+leaflets	1818	1826	NNS	7	nsubjpass
+are	1827	1830	VBP	7	auxpass
+moderately	1831	1841	RB	7	advmod
+thickened	1842	1851	VBN	0	root
+.	1851	1852	.	-1	null
+
+Significant	1853	1864	JJ	3	amod
+aortic	1865	1871	JJ	3	amod
+stenosis	1872	1880	NN	7	nsubj
+is	1881	1883	VBZ	7	cop
+probably	1884	1892	RB	7	advmod
+not	1893	1896	RB	7	neg
+present	1897	1904	JJ	0	root
+.	1904	1905	.	-1	null
+
+The	1906	1909	DT	3	det
+mitral	1910	1916	JJ	3	amod
+valve	1917	1922	NN	7	nsubjpass
+is	1923	1925	VBZ	7	auxpass
+not	1926	1929	RB	7	neg
+well	1930	1934	RB	7	advmod
+seen	1935	1939	VBN	0	root
+.	1939	1940	.	-1	null
+
+Mitral	1941	1947	JJ	2	amod
+stenosis	1948	1956	NN	5	nsubj
+is	1957	1959	VBZ	5	cop
+not	1960	1963	RB	5	neg
+present	1964	1971	JJ	0	root
+and	1972	1975	CC	5	cc
+definate	1976	1984	JJ	9	amod
+mitral	1985	1991	JJ	9	amod
+regurgitation	1992	2005	NN	12	nsubjpass
+is	2006	2008	VBZ	12	auxpass
+not	2009	2012	RB	12	neg
+seen	2013	2017	VBN	5	conj
+.	2017	2018	.	-1	null
+
+The	2019	2022	DT	5	det
+pulmonary	2023	2032	JJ	5	amod
+artery	2033	2039	NN	5	nn
+systolic	2040	2048	JJ	5	amod
+pressure	2049	2057	NN	9	nsubjpass
+could	2058	2063	MD	9	aux
+not	2064	2067	RB	9	neg
+be	2068	2070	VB	9	auxpass
+determined	2071	2081	VBN	0	root
+.	2081	2082	.	-1	null
+
+There	2083	2088	EX	2	expl
+is	2089	2091	VBZ	0	root
+no	2092	2094	DT	5	neg
+pericardial	2095	2106	JJ	5	amod
+effusion	2107	2115	NN	2	nsubj
+.	2115	2116	.	-1	null
+
+$	2117	2118	$	0	root
+
+$	2118	2119	$	0	root
+
+If	2119	2121	IN	3	mark
+clinically	2122	2132	RB	3	advmod
+indicated	2133	2142	VBN	9	advcl
+,	2142	2143	,	-1	null
+a	2144	2145	DT	7	det
+radionuclide	2146	2158	JJ	7	amod
+ventriculogram	2159	2173	NN	9	nsubjpass
+is	2174	2176	VBZ	9	auxpass
+suggested	2177	2186	VBN	0	root
+to	2187	2189	TO	12	aux
+better	2190	2196	RB	12	advmod
+characterize	2197	2209	VB	9	xcomp
+regional	2210	2218	JJ	12	dobj
+and	2219	2222	CC	13	cc
+global	2223	2229	JJ	18	amod
+biventricular	2230	2243	JJ	18	amod
+systolic	2244	2252	JJ	18	amod
+function	2253	2261	NN	13	conj
+.	2261	2262	.	-1	null
+
+$	2263	2264	$	0	root
+
+$	2264	2265	$	0	root
+
